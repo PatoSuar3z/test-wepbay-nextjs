@@ -34,9 +34,9 @@ export default function Home() {
           'Content-Type': 'application/json',
         },
       })
-        .then((res2) => res2.json())
-        .then((data2) => { console.log(data2) })
-        .catch((error2) => { console.log(error2) });
+        .then((res) => res.json())
+        .then((data) => { console.log(data) })
+        .catch((error) => { console.log(error) });
     })
     .catch((error) => { console.log(error) });
   
